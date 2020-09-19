@@ -1,0 +1,8 @@
+module, Environment.py, is_event_decision_time 함수, 첫번째 줄
+기존: if is_event_decision_time is not None
+변경: if is_event_decision_time is None
+
+추가: main_RL.ipynb, training함수, 66번째 줄
+기존: if env.t >= 23 * 24:
+변경: if env.t >= 15 * 24:
+점수 빠르게 상승 (선택)
